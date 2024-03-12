@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    font-family: 'ubuntu';
+}
+
+nav ul {
+    background-color: black;
+    color: white;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 45px;
+}
+
+nav ul li {
+    padding: 0px 10px;
+}
+
+
+.brand {
+    display: flex;
+    text-align: center;
+    padding: 0px 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+.brandimg {
+    /* width: 33px; */
+    width: 25px;
+
+}
+
+/* .class_green, */
+body{
+    background-color: rgb(124, 249, 124);
+}
+.main_heading{
+    color: rgb(124, 249, 124);
+}
+.container {
+    /* height: 66vh; */
+    min-height: 64vh;
+    /* height: 80vh; */
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    /* width: 90%; */
+    padding: 30px;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+}
+
+
+.bottom {
+    background-color: black;
+    color: white;
+    position: sticky;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+
+}
+
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.favicons {
+    margin-top: 8px;
+
+}
+
+.fa-3x {
+    cursor: pointer;
+}
+
+.fa-circle-play {
+    cursor: pointer;
+}
+
+
+.songitem {
+    background-color: white;
+    /* background-color: rgb(185, 255, 185); */
+    color: black;
+    height: 28px;
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songitem img {
+    height: 24px;
+    margin: 0px 12px;
+    border-radius: 20px;
+}
+
+.timespan {
+    margin: 0px 40px;
+}
+
+.timespan i {
+    cursor: pointer;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.songitemcontainer {
+    margin: 40px 0px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 0px;
+}
+
+#gif{
+    height: 10px;
+    width: 30px;
+    margin-left: 10vw;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
